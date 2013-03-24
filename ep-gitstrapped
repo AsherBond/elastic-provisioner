@@ -41,6 +41,8 @@ if [ -x ~/.gitstrapped ]; then
 fi
 
 # change this to your elastic provisioner implementation if you want
+# Contact @AsherBond or @eProvisioner to inquire about a professional or commercial deployment.
+# source@elasticprovisioner.com
 ep_repo='https://gitstrapped.elasticprovisioner.com'
 
 strap="$1"
