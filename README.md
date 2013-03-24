@@ -19,7 +19,7 @@ or
 https://www.gnu.org/licenses/agpl-3.0.de.html
 `
 
-A STRAP is a Service Template Running A Process
-A single STRAP may be licensed to the public under AGPLv3 or a more permissive license such as LGPL or BSD or GNU or Apache License.
-A provisioner may invoke the STRAP at his or her own risk via ep-gitstrapped <strap>
+# A STRAP is a Service Template Running A Process
+# A single STRAP may be licensed to the public under AGPLv3 or a more permissive license such as LGPL or BSD or GNU or Apache License.
+# A provisioner may invoke the STRAP at his or her own risk via ` ep-gitstrapped <strap>`
 
