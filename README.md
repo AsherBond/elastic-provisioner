@@ -9,8 +9,8 @@ Installation is quite simple:
 
 Once the client is installed, packages can be found and then installed in a single command:
 
-`ep-gitstrapped search <package>
-ep-gitstrapped install <pkg-mask>`
+`ep-gitstrapped search <package>`
+`ep-gitstrapped install <pkg-mask>`
 
 Please read the License (AGPL v3)
 `
