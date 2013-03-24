@@ -4,10 +4,13 @@ elastic-provisioner
 A DevOpsy PaaS for distributed systems developers, teaching the ways of Test-Driven DevOps Design and Continuous Automation. GitStrapped provides an interoperability framework for runtime bootstrapping of (para)virtual machinery as well as physical machinery if that's what you're into.
 
 Installation is quite simple:
+
 curl -s -1 -k https://gitstrapped.elasticprovisioner.com/install-gitstrapped | bash
 
 Once the client is installed, packages can be found and then installed in a single command:
+
 ep-gitstrapped search <package>
+
 ep-gitstrapped install <pkg-mask>
 
 Please read the License (AGPL v3)
