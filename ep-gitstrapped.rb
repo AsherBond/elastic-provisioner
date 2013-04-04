@@ -33,7 +33,7 @@ class Gitstrapped
 
 end
 
-# sample usage is equivalent to ep-gitstrapped cat rvm
+# sample usage is equivalent to ep-gitstrapped search nginx
 #ep_gitstrapped = Gitstrapped.new
 #ep_gitstrapped.search('nginx')
 
