@@ -28,7 +28,8 @@ class Gitstrapped
   end
 
   def method_missing(method, *arg)
-      system(@client.to_s, method.to_s, *arg)
+      @strap = method.to_s.gsub('_','-')
+      system(@client.to_s, @strap, *arg)
   end
 
 end
@@ -36,4 +37,5 @@ end
 # sample usage is equivalent to ep-gitstrapped search nginx
 #ep_gitstrapped = Gitstrapped.new
 #ep_gitstrapped.search('nginx')
+#ep_gitstrapped.whats_established_on(':80')
 
