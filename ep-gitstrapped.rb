@@ -24,7 +24,6 @@
 class Gitstrapped
   def method_missing(method, *arg)
       system("ep-gitstrapped", method.to_s, *arg)
-      self
   end
 end
 
