@@ -22,18 +22,12 @@
 # https://www.eff.org/
 
 class Gitstrapped
-  alias __inspect__ inspect
   def method_missing(method, *arg)
-      @identity = method
       system("ep-gitstrapped", method.to_s, *arg)
-      def inspect
-        @identity
-      end
       self
-    end
+  end
 end
 
 # sample usage is equivalent to ep-gitstrapped cat rvm
 #mystrap = Gitstrapped.new
 #mystrap.cat('rvm')
-
