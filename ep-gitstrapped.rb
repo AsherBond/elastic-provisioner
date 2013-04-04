@@ -35,5 +35,5 @@ end
 
 # sample usage is equivalent to ep-gitstrapped cat rvm
 #ep_gitstrapped = Gitstrapped.new
-#ep_gitstrapped.cat('rvm')
+#ep_gitstrapped.search('nginx')
 
