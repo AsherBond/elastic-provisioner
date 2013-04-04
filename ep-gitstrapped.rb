@@ -21,12 +21,19 @@
 # Please also join me in support of the Electronic Frontier Foundation (Defending Your Rights In The Digital World)
 # https://www.eff.org/
 
-class Gitstrapped
-  def method_missing(method, *arg)
-      system("ep-gitstrapped", method.to_s, *arg)
+class Gitstrapped 
+  attr_reader :client
+  def initialize(client='ep-gitstrapped')
+    @client = client
   end
+
+  def method_missing(method, *arg)
+      system(@client.to_s, method.to_s, *arg)
+  end
+
 end
 
 # sample usage is equivalent to ep-gitstrapped cat rvm
-#mystrap = Gitstrapped.new
-#mystrap.cat('rvm')
+#ep_gitstrapped = Gitstrapped.new
+#ep_gitstrapped.cat('rvm')
+
