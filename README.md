@@ -1,5 +1,5 @@
 elastic-provisioner
 ===================
 
-This moved to `https://github.com/ElasticProvisioner`
+This moved to <https://github.com/ElasticProvisioner>
 
